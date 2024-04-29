@@ -1,16 +1,41 @@
+html { 
+    margin: 0px;
+    height: 100%;
+}
 body {
     font-family: JetbrainsMono Nerd Font;
+    color: white;
+    font-size: 24px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/background.JPEG");
+    display: grid;
+    grid-template-rows: 30% 40% 30%;
+
+    margin: 0px; 
+    height: 100%;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/background.JPEG");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+main { 
+    font-family: JetbrainsMono Nerd Font;
+    color: white;
+    font-size: 24px;
+    grid-row: 2 / 3;
+}
+
 .title {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: JetbrainsMono Nerd Font;
+    src: url("JetBrainsMonoNerdFont-Regular.ttf");
 }
 
 button {
@@ -21,5 +46,11 @@ button {
     border-radius: 5%;
     padding: 10px 20px;
     margin: 10px;
+    font-size: 24px;
     cursor: pointer;
+}
+
+.paragraph { 
+    color: white;
+    font-size: 50px;
 }

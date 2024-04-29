@@ -1,0 +1,60 @@
+body {
+    font-family: JetbrainsMono Nerd Font;
+    color: #957DAD;
+    font-size: 24px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/background.JPEG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main { 
+    font-family: JetbrainsMono Nerd Font;
+    color: white;
+    font-size: 24px;
+}
+
+.title {
+    color: #957DAD;
+    text-shadow: -1px 1px 0 #FFDFD3,
+    1px 1px 0 #FFDFD3,
+    1px -1px 0 #FFDFD3,
+    -1px -1px 0 #FFDFD3;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: JetbrainsMono Nerd Font;
+    src: url("../../JetBrainsMonoNerdFont-Regular.ttf");
+}
+
+button {
+    font-family: JetbrainsMono Nerd Font;
+    background-color: #feb1e6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.grid-container { 
+    display: grid; 
+    grid-template-columns: 15% 70% 15%;
+}
+
+.text-container {
+    grid-column: 2 / 3;
+    background-color: #FFDFD3;
+    border-radius: 5%;
+}
+.text { 
+    color: #957DAD;
+    margin: 0px;
+    padding: 15px;
+    grid-column: 2 / 3;
+    text-align: left;
+}
