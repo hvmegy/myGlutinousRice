@@ -1,0 +1,25 @@
+body {
+    font-family: JetbrainsMono Nerd Font;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/background.JPEG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+button {
+    font-family: JetbrainsMono Nerd Font;
+    background-color: #feb1e6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
