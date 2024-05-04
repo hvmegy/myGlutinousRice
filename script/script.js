@@ -1,8 +1,12 @@
 function navigate2YearsWishes() { 
-    window.location.href = "pages/2YearWishes/2YearsWishes.html"
+    window.location.href = "pages/2YearWishes/index.html"
 }
 function navigateGallery() { 
-    window.location.href ="pages/Gallery/Gallery.html"
+    window.location.href ="pages/Gallery/index.html"
+}
+
+function navigate2YearPlan() { 
+    window.location.href ="pages/2YearPlan/index.html"
 }
 
 function init() {
