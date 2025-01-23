@@ -5,8 +5,8 @@ function navigateGallery() {
     window.location.href ="pages/Gallery/index.html"
 }
 
-function navigate2YearPlan() { 
-    window.location.href ="pages/2YearPlan/index.html"
+function navigate1000DaysWishes() { 
+    window.location.href ="pages/1000DaysWishes/index.html"
 }
 
 function init() {
